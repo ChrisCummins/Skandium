@@ -2,6 +2,10 @@
 # Released under MIT license. See:
 #   https://github.com/github/gitignore
 
+# Skandium-specific ignore patterns
+##################################
+/doc/*
+
 # Ignores patterns for Eclipse projects
 #######################################
 *.pydevproject
