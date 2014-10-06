@@ -1,13 +1,52 @@
-.DS_Store
-manifest.mf
-nbproject
-*.project
-*.classpath
+# Git ignore template files. Copyright (c) 2014 GitHub, Inc.
+# Released under MIT license. See:
+#   https://github.com/github/gitignore
+
+# Ignores patterns for Eclipse projects
+#######################################
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
 *.launch
-*/target/**
-*/reports/**
-build.xml
-build/**
-*/logs/**
-logs/**
-lib/**
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin 
+.target
+
+# TeXlipse plugin
+.texlipse
+
+
+# Ignore patterns for Java projects
+###################################
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
